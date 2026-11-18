@@ -144,6 +144,9 @@ export function renderBody(c) {
         <p class="mono services-intro__idx" aria-hidden="true">02</p>
         <h2 class="services-intro__title" id="services-title" data-glitch-text="${esc(services.heading)}">${esc(services.heading)}</h2>
         <p class="mono services-intro__meta">${String(services.items.length).padStart(2, '0')} disciplines · One studio</p>
+        <ul class="services-intro__list" aria-label="Disciplines">${services.items
+          .map((s) => `<li style="--zone:${esc(s.zoneColor)}"><a href="#service-${esc(s.slug)}" data-glitch-text="${esc(s.title)}"><span class="mono">${esc(s.index)}</span>${esc(s.title)}</a></li>`)
+          .join('')}</ul>
       </div>
       ${services.items
         .map(
@@ -165,7 +168,7 @@ export function renderBody(c) {
       <div class="brands__sticky">
         <canvas class="brands__reel" aria-hidden="true"></canvas>
         <div class="brands__head">
-          <h2 class="brands__title mono" id="brands-title"><span class="brands__idx">05</span> ${esc(brands.heading)}</h2>
+          <h2 class="brands__title mono" id="brands-title"><span class="brands__idx">03</span> ${esc(brands.heading)}</h2>
           <p class="brands__count mono" aria-hidden="true"><span>${String(brands.items.length).padStart(2, '0')}</span> partners</p>
         </div>
         <p class="brands__hint mono" aria-hidden="true">Move to distort</p>

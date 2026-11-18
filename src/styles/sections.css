@@ -481,3 +481,18 @@ html.flight .stop--explore .explore-link:focus-visible { opacity: 1; transform: 
 .contact__wa { color: var(--ink-dim); }
 .contact__wa a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--magenta); padding: 6px 0; }
 .contact__wa a:hover { color: var(--magenta); }
+
+/* What We Do intro: the disciplines, each linking to its zone */
+.services-intro__list { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 12px; max-width: 980px; margin-top: 10px; }
+.services-intro__list a {
+  display: inline-flex; align-items: center; gap: 10px; min-height: 44px; padding: 0 16px;
+  font-family: var(--font-display); font-weight: 700; text-transform: uppercase; font-size: clamp(15px, 1.25vw, 19px); letter-spacing: 0.02em;
+  color: var(--ink); text-decoration: none; background: rgba(13, 8, 24, 0.55); backdrop-filter: blur(6px);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--zone) 55%, transparent);
+  transition: background 0.3s, box-shadow 0.3s, transform 0.4s var(--ease-out);
+}
+.services-intro__list a .mono { color: var(--zone); font-size: 11px; }
+.services-intro__list a:hover, .services-intro__list a:focus-visible {
+  background: color-mix(in srgb, var(--zone) 22%, rgba(13, 8, 24, 0.7)); box-shadow: inset 0 0 0 1px var(--zone), 0 0 24px -6px var(--zone); transform: translateY(-2px);
+}
+@media (max-width: 767px) { .services-intro__list { gap: 8px; } .services-intro__list a { font-size: 14px; padding: 0 12px; } }

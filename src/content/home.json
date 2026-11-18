@@ -241,6 +241,21 @@
           ],
           "zoneColor": "#9b6bff",
           "visual": "ledwall"
+        },
+        {
+          "id": 5,
+          "slug": "ai-storytelling",
+          "index": "05",
+          "title": "AI Storytelling",
+          "summary": "Stories imagined with AI and crafted by our studio: brand films, commercials and visuals that move at the speed of ideas.",
+          "capabilities": [
+            "AI-powered brand films & commercials",
+            "Generative visuals & CGI",
+            "AI showreels & content",
+            "AI hosts & digital avatars"
+          ],
+          "zoneColor": "#b05cff",
+          "visual": "neural"
         }
       ]
     },

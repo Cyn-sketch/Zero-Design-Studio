@@ -1,6 +1,6 @@
 # Zero Design Studio: Homepage Concept Prototype
 
-A working design reference for the redesigned ZDS website: the homepage plus **Work**, **About** and **Blogs** pages. The homepage is one continuous dark 3D space you fly through (hero → selected work → services → brands → contact), with all real content as semantic HTML. **This is a prototype for the Director and the dev team, not the production site.**
+A working design reference for the redesigned ZDS website: the homepage plus **Work**, **About** and **Blogs** pages. The homepage is one continuous dark 3D space you fly through (hero → selected work → five service zones, including AI Storytelling → brands → contact), with all real content as semantic HTML. **This is a prototype for the Director and the dev team, not the production site.**
 
 ---
 
@@ -61,7 +61,7 @@ src/
                            zone colour/lighting blend, contact pull-back
   scene/ProjectObject.js   Project tiles that resolve into the visual as the camera approaches
   scene/YouTubeLayer.js    Muted YouTube previews placed *on* the 3D planes (CSS3DRenderer)
-  scene/ServiceZone.js     The four service zone visuals (frames / portal / cubes / ledwall)
+  scene/ServiceZone.js     The five service zone visuals (frames / portal / cubes / ledwall / neural)
   scene/CameraRig.js       Catmull-Rom camera + look-at path, damping, mouse parallax
   scene/shaders/final.js   Chromatic aberration, block glitch, scanlines, vignette
   ui/brandReel.js          Kinetic-type brand reel (2D canvas)
@@ -87,7 +87,7 @@ Everything a visitor reads lives in **`src/content/home.json`**, shaped like a S
 | `navigation` | Menu links |
 | `hero` | Eyebrow line, headline words, sub-line, showreel button + `video` |
 | `work.projects[]` | Title, tags, link, `media`, `video`, `palette` (placeholder tint) |
-| `services.items[]` | Title, summary, capabilities, `zoneColor`, `visual` (`frames` / `portal` / `cubes` / `ledwall`) |
+| `services.items[]` | Title, summary, capabilities, `zoneColor`, `visual` (`frames` / `portal` / `cubes` / `ledwall` / `neural`) |
 | `brands.items[]` | Brand names (`logo` optional, see below) |
 | `contact` | Close copy, button, city list |
 | `footer` | Statement, blurb, quick links, studios, socials, legal, copyright |
@@ -143,7 +143,7 @@ With `media.url` empty and a `video` set, the 3D tiles resolve into the YouTube 
 
 The prototype is built so the CMS swap is mechanical:
 
-1. **Model.** Create Single Types `homepage`, `work-page`, `about-page` and `blogs-page` (or Collection Types for projects, team members and posts). For `homepage`, use fields that mirror `home.json`, with components for `seo`, `hero`, `contact` and `footer`, repeatable components (or relations) for `work.projects`, `services.items` and `brands.items`, and Media fields wherever the JSON has `{ url, mime, alternativeText }`. `services.items[].visual` is an Enumeration (`frames`, `portal`, `cubes`, `ledwall`). `video` is a small component (`provider`, `id`, `start`).
+1. **Model.** Create Single Types `homepage`, `work-page`, `about-page` and `blogs-page` (or Collection Types for projects, team members and posts). For `homepage`, use fields that mirror `home.json`, with components for `seo`, `hero`, `contact` and `footer`, repeatable components (or relations) for `work.projects`, `services.items` and `brands.items`, and Media fields wherever the JSON has `{ url, mime, alternativeText }`. `services.items[].visual` is an Enumeration (`frames`, `portal`, `cubes`, `ledwall`, `neural`). `video` is a small component (`provider`, `id`, `start`).
 2. **Fetch.** Replace the body of `getHomeContent()` in `src/content/adapter.js` (a commented example is in the file). Use `populate` for nested media and components. Relative upload URLs need the API origin prefixed; `mediaUrl()` handles that.
 3. **Render on the server.** Keep the SEO guarantee: all copy must be in the HTML response. Today `vite.config.js` calls `render.js` at build time. In production, call the same `renderHead` / `renderBody` (or port them to your templates) inside your SSR/SSG (Next, Astro, Nuxt, or a Node template). The 3D layer only *reads* content and the DOM; it never creates copy.
 4. **Revalidate.** Rebuild or revalidate the page on Strapi publish (webhook → ISR / build hook).

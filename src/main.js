@@ -36,7 +36,7 @@ if (!webgl) html.classList.add('no-webgl');
 // Particle budgets: hard caps per device class.
 const CFG = mobile
   ? { field: 700, depth: 160, logo: 10000, maxDpr: 1.5, bloom: 0.55, logoH: 3.3 }
-  : { field: 4400, depth: 300, logo: 22000, maxDpr: 1.5, bloom: 0.65, logoH: 5.4 };
+  : { field: 4800, depth: 340, logo: 22000, maxDpr: 1.5, bloom: 0.65, logoH: 5.4 };
 
 /* ---------------- Smooth scroll ---------------- */
 let lenis = null;
@@ -61,6 +61,26 @@ const menu = initMenu({ onOpen: () => overlay(true), onClose: () => overlay(fals
 initShowreel({ onOpen: () => overlay(true), onClose: () => overlay(false) });
 // Same-page links (e.g. Contact from the menu) scroll smoothly instead of jumping.
 const hashLinks = initHashLinks({ lenis, menu, reduced });
+
+/*
+ * Keep scroll measurements in sync with the page height. The camera-flight
+ * layout, fonts and images all change the height after load; without this,
+ * smooth scroll stops early (sections become unreachable) and ScrollTrigger
+ * runs on stale positions (e.g. the brand reel never "enters").
+ */
+let remeasureTimer = 0;
+let lastHeight = 0;
+const remeasure = () => {
+  clearTimeout(remeasureTimer);
+  remeasureTimer = setTimeout(() => {
+    const h = document.documentElement.scrollHeight;
+    if (h === lastHeight) return;
+    lastHeight = h;
+    lenis?.resize();
+    ScrollTrigger.refresh(); // also re-measures the camera journey (refresh listener)
+  }, 120);
+};
+new ResizeObserver(remeasure).observe(document.body);
 
 // Contact copy reveal when there's no camera flight (mobile, reduced motion, no WebGL).
 if (mobile || reduced || !webgl) {
@@ -141,7 +161,11 @@ if (webgl)
   import('./scene/experience.js')
     .then(({ init3D }) => init3D({ CFG, mobile, reduced, params, html, scrambleIn, setWorld: (w) => (world3D = w) }))
     // Arriving with a hash (e.g. /#contact from another page): jump once the 3D layout is final.
-    .then(() => requestAnimationFrame(() => hashLinks.scrollToHash()))
+    .then(() => {
+      lastHeight = 0; // force: the flight layout just changed every section's height
+      remeasure();
+      setTimeout(() => hashLinks.scrollToHash(), 200);
+    })
     .catch((err) => {
   console.error(err);
   html.classList.add('no-webgl');

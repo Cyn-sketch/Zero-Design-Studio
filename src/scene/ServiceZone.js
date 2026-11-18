@@ -247,7 +247,108 @@ function buildLedWall(color) {
   };
 }
 
-const BUILDERS = { frames: buildFrames, portal: buildPortal, cubes: buildCubes, ledwall: buildLedWall };
+/* ---------- 05 neural: AI Storytelling ---------- */
+// A layered neural network: glowing nodes, faint synapses, and "signals"
+// travelling layer to layer, so the zone reads as AI at a glance.
+function buildNeural(color) {
+  const LAYERS = [5, 8, 10, 8, 5];
+  const W = 4.6, H = 2.6;
+  const nodes = [];
+  LAYERS.forEach((n, li) => {
+    const x = (li / (LAYERS.length - 1) - 0.5) * W;
+    for (let k = 0; k < n; k++) {
+      const y = n === 1 ? 0 : (k / (n - 1) - 0.5) * H * (0.55 + 0.45 * (n / 10));
+      nodes.push({ layer: li, p: new THREE.Vector3(x, y, Math.sin(k * 1.7 + li) * 0.35) });
+    }
+  });
+  const byLayer = LAYERS.map((_, li) => nodes.filter((n) => n.layer === li));
+
+  // synapses: every node to every node in the next layer
+  const edges = [];
+  const linePos = [];
+  for (let li = 0; li < LAYERS.length - 1; li++) {
+    for (const a of byLayer[li]) for (const b of byLayer[li + 1]) {
+      edges.push([a, b]);
+      linePos.push(a.p.x, a.p.y, a.p.z, b.p.x, b.p.y, b.p.z);
+    }
+  }
+  const lg = new THREE.BufferGeometry();
+  lg.setAttribute('position', new THREE.Float32BufferAttribute(linePos, 3));
+  const lineMat = new THREE.LineBasicMaterial({ color, ...additive({ opacity: 0.12 }) });
+  const lines = new THREE.LineSegments(lg, lineMat);
+
+  // nodes as glowing points
+  const np = new Float32Array(nodes.length * 3);
+  nodes.forEach((n, i) => np.set([n.p.x, n.p.y, n.p.z], i * 3));
+  const ng = new THREE.BufferGeometry();
+  ng.setAttribute('position', new THREE.BufferAttribute(np, 3));
+  const nodeU = { uTime: { value: 0 }, uColor: { value: color }, uAmt: { value: 1 } };
+  const nodePts = new THREE.Points(
+    ng,
+    new THREE.ShaderMaterial({
+      uniforms: nodeU,
+      ...additive(),
+      vertexShader: `uniform float uTime; varying float vB;
+        void main(){ vec4 mv = modelViewMatrix * vec4(position,1.0);
+          vB = 0.55 + 0.45 * sin(uTime * 2.0 + position.x * 3.0 + position.y * 5.0);
+          gl_PointSize = 150.0 / -mv.z; gl_Position = projectionMatrix * mv; }`,
+      fragmentShader: `uniform vec3 uColor; uniform float uAmt; varying float vB;
+        void main(){ float d = length(gl_PointCoord - 0.5); float core = smoothstep(0.5, 0.0, d);
+          gl_FragColor = vec4(mix(uColor, vec3(1.0), core * core * 0.7) * core * core * vB * uAmt, 1.0); }`,
+    })
+  );
+
+  // signals: points travelling along random synapses, layer by layer
+  const N = 60;
+  const sigPos = new Float32Array(N * 3);
+  const sg = new THREE.BufferGeometry();
+  sg.setAttribute('position', new THREE.BufferAttribute(sigPos, 3));
+  const sigU = { uColor: { value: new THREE.Color('#f1d9ff') }, uAmt: { value: 1 } };
+  const sigs = new THREE.Points(
+    sg,
+    new THREE.ShaderMaterial({
+      uniforms: sigU,
+      ...additive(),
+      vertexShader: `void main(){ vec4 mv = modelViewMatrix * vec4(position,1.0); gl_PointSize = 70.0 / -mv.z; gl_Position = projectionMatrix * mv; }`,
+      fragmentShader: `uniform vec3 uColor; uniform float uAmt; void main(){ float d = length(gl_PointCoord - 0.5); float a = smoothstep(0.5, 0.0, d); gl_FragColor = vec4(uColor * a * a * uAmt, 1.0); }`,
+    })
+  );
+  const pickEdge = (layer) => {
+    const opts = edges.filter(([a]) => a.layer === layer);
+    return opts[Math.floor(Math.random() * opts.length)];
+  };
+  const signals = Array.from({ length: N }, () => ({ edge: pickEdge(Math.floor(Math.random() * (LAYERS.length - 1))), t: Math.random(), speed: 0.5 + Math.random() * 0.7 }));
+  const tmp = new THREE.Vector3();
+
+  const group = new THREE.Group();
+  group.add(lines, nodePts, sigs);
+  let last = 0;
+  return {
+    group,
+    update(t, amt) {
+      const dt = Math.min(0.05, Math.max(0, t - last));
+      last = t;
+      nodeU.uTime.value = t;
+      nodeU.uAmt.value = amt;
+      sigU.uAmt.value = amt;
+      lineMat.opacity = 0.08 + 0.1 * amt;
+      signals.forEach((s, i) => {
+        s.t += dt * s.speed;
+        if (s.t >= 1) {
+          const next = s.edge[1].layer < LAYERS.length - 1 ? s.edge[1].layer : 0; // loop back to the input layer
+          s.edge = pickEdge(next);
+          s.t = 0;
+        }
+        tmp.lerpVectors(s.edge[0].p, s.edge[1].p, s.t);
+        sigPos.set([tmp.x, tmp.y, tmp.z], i * 3);
+      });
+      sg.attributes.position.needsUpdate = true;
+      group.rotation.y = Math.sin(t * 0.25) * 0.18;
+    },
+  };
+}
+
+const BUILDERS = { frames: buildFrames, portal: buildPortal, cubes: buildCubes, ledwall: buildLedWall, neural: buildNeural };
 
 export class ServiceZone {
   constructor(service, index, { camera }) {

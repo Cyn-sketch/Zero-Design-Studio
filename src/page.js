@@ -28,6 +28,8 @@ if (!reduced) {
   };
   requestAnimationFrame(raf);
   window.__lenis = lenis; // debug handle (prototype)
+  // Images and fonts change the page height after load: keep the scroll limit in sync.
+  new ResizeObserver(() => lenis.resize()).observe(document.body);
 }
 
 /* Chrome */
