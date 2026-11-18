@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZDS Homepage Prototype: Screens</title>
+<style>
+  :root { --bg:#07050c; --ink:#f2eeff; --dim:rgba(242,238,255,.6); --mag:#c32bff; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; padding: 40px 16px 80px; }
+  main { max-width: 1240px; margin: 0 auto; }
+  h1 { font-size: clamp(24px, 3vw, 36px); margin: 0 0 6px; letter-spacing: .02em; text-transform: uppercase; }
+  p.lede { color: var(--dim); margin: 0 0 36px; max-width: 70ch; }
+  h2 { font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: var(--mag); margin: 48px 0 16px; }
+  .grid { display:grid; gap:20px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 380px), 1fr)); }
+  .grid.m { grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); }
+  figure { margin:0; background:#0d0818; box-shadow: 0 0 0 1px rgba(207,203,217,.18); }
+  img { display:block; width:100%; height:auto; }
+  figcaption { padding:10px 12px; font-size:13px; color:var(--dim); }
+  figcaption b { color: var(--ink); font-weight:600; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Zero Design Studio: Homepage Prototype</h1>
+  <p class="lede">Key frames of the scroll journey, desktop then mobile, captured from the running prototype. The live build moves continuously between these frames; run <code>npm run dev</code> to see the full experience.</p>
+
+  <h2>Desktop: one continuous flight</h2>
+  <div class="grid">
+    <figure><img src="d01-hero.jpg" alt=""><figcaption><b>01 Hero.</b> Logo assembles from glitch shards on load; no loader.</figcaption></figure>
+    <figure><img src="d02-selected-work.jpg" alt=""><figcaption><b>02 Selected Work.</b> Intro the camera flies through.</figcaption></figure>
+    <figure><img src="d03-project-resolving.jpg" alt=""><figcaption><b>03 Approach.</b> Tiles resolve into the project's YouTube frame.</figcaption></figure>
+    <figure><img src="d04-project-abg.jpg" alt=""><figcaption><b>04 Project parked.</b> Copy pinned, HUD 01/04.</figcaption></figure>
+    <figure><img src="d05-project-anamorphic.jpg" alt=""><figcaption><b>05 Anamorphic 3D.</b> Sides alternate; live muted preview on the plane.</figcaption></figure>
+    <figure><img src="d06-project-elie-saab-video.jpg" alt=""><figcaption><b>06 Elie Saab × M3M.</b> Video already playing on arrival.</figcaption></figure>
+    <figure><img src="d07-what-we-do.jpg" alt=""><figcaption><b>07 What We Do.</b> The four zones line up ahead.</figcaption></figure>
+    <figure><img src="d08-zone-content-creation.jpg" alt=""><figcaption><b>08 Content Creation.</b> Corridor of screens.</figcaption></figure>
+    <figure><img src="d09-zone-experience-design.jpg" alt=""><figcaption><b>09 Experience Design.</b> Shard portal (glow since softened).</figcaption></figure>
+    <figure><img src="d10-zone-experiential-marketing.jpg" alt=""><figcaption><b>10 Experiential Marketing.</b> Installation cube grid.</figcaption></figure>
+    <figure><img src="d11-zone-multimedia-production.jpg" alt=""><figcaption><b>11 Multimedia Production.</b> LED wall and laser fan.</figcaption></figure>
+    <figure><img src="d12-brand-reel.jpg" alt=""><figcaption><b>12 Brands.</b> Kinetic-type reel; letters morph and glitch.</figcaption></figure>
+    <figure><img src="d14-contact-close.jpg" alt=""><figcaption><b>13 Contact close.</b> Camera pulls back as the logo reassembles; footer below.</figcaption></figure>
+  </div>
+
+  <h2>Mobile: lighter, same look</h2>
+  <div class="grid m">
+    <figure><img src="m01-hero.jpg" alt=""><figcaption><b>Hero.</b> Fewer particles, same assembly.</figcaption></figure>
+    <figure><img src="m02-work-cards.jpg" alt=""><figcaption><b>Work.</b> Cards with YouTube previews.</figcaption></figure>
+    <figure><img src="m03-services.jpg" alt=""><figcaption><b>Services.</b> Zone colour per block.</figcaption></figure>
+    <figure><img src="m04-contact.jpg" alt=""><figcaption><b>Contact.</b> Logo reassembles above the copy.</figcaption></figure>
+  </div>
+</main>
+</body>
+</html>

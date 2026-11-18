@@ -1,0 +1,43 @@
+/* Self-hosted brand fonts (public/fonts). Barlow ExtraBold is mapped to 700 and 800. */
+@font-face { font-family: 'Barlow'; src: url('/fonts/Barlow-ExtraBold.ttf') format('truetype'); font-weight: 700 800; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Barlow'; src: url('/fonts/Barlow-ExtraBoldItalic.ttf') format('truetype'); font-weight: 700 800; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Lato'; src: url('/fonts/Lato-Light.ttf') format('truetype'); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Lato'; src: url('/fonts/Lato-Regular.ttf') format('truetype'); font-weight: 400 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Lato'; src: url('/fonts/Lato-Italic.ttf') format('truetype'); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Lato'; src: url('/fonts/Lato-Bold.ttf') format('truetype'); font-weight: 600 700; font-style: normal; font-display: swap; }
+
+:root {
+  /* Brand: purple + black. Chrome is the single, subtle secondary (from the logo's silver half). */
+  --bg: #07050c;
+  --bg-2: #0d0818;
+  --purple-950: #12062a;
+  --purple-800: #2a0a5e;
+  --purple-600: #4b14a8;
+  --purple-500: #6a1bd6;
+  --violet: #8b3dff;
+  --magenta: #c32bff;
+  --chrome: #cfcbd9;
+  --chrome-dim: rgba(207, 203, 217, 0.28);
+
+  /* Glitch channel colours: only ever used inside RGB-split effects. */
+  --glitch-a: #ff2a6d;
+  --glitch-b: #3a1cff;
+
+  --ink: #f2eeff;
+  --ink-dim: rgba(242, 238, 255, 0.64);
+  --ink-faint: rgba(242, 238, 255, 0.38);
+
+  --grad-brand: linear-gradient(135deg, var(--purple-600) 0%, var(--magenta) 100%);
+
+  /* Headings: Barlow ExtraBold (used at weight 700). Everything else: Lato.
+     Unbounded is kept only for the "Selected Work" title and the brand reel. */
+  --font-display: 'Barlow', 'Arial Narrow', system-ui, sans-serif;
+  --font-body: 'Lato', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'Lato', system-ui, -apple-system, 'Segoe UI', sans-serif; /* small uppercase labels */
+  --font-feature: 'Unbounded', 'Arial Black', system-ui, sans-serif;
+
+  --gutter: clamp(16px, 4vw, 56px);
+  --nav-h: 76px;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --cut: 12px; /* angled corner size on buttons */
+}

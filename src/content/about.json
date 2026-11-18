@@ -1,0 +1,368 @@
+{
+  "data": {
+    "id": 1,
+    "documentId": "about-page",
+    "seo": {
+      "metaTitle": "About | Zero Design Studio: A Multidisciplinary Experience Design Company",
+      "metaDescription": "Zero Design Studio is a multidisciplinary experience design company in India, the UAE and Saudi Arabia, transforming concepts into extraordinary realities through content, production and bold storytelling.",
+      "shareImage": {
+        "url": "/assets/logo/zds-logo-full.webp",
+        "alternativeText": "Zero Design Studio logo"
+      }
+    },
+    "hero": {
+      "eyebrow": "About us",
+      "title": "Zero Design Studio is a multidisciplinary experience design company",
+      "intro": "We are a leading multidimensional experience design agency, transforming concepts into extraordinary realities through innovative content creation, cutting-edge production and bold storytelling worldwide. Our expertise lies in crafting experiences that go beyond traditional boundaries: immersive interactions that engage audiences, entertain with creativity and inspire growth, evolving ideas into impactful, fresh perspectives."
+    },
+    "vision": {
+      "eyebrow": "Vision & mission",
+      "statement": "To push the boundaries of experience design and transform how the world engages with stories.",
+      "body": "Every brief starts with the room: who’s in it, what they should feel, and the one moment they’ll talk about afterwards. We design the content, the space and the show around that moment, then build it on LED, holograms, anamorphic screens and projection."
+    },
+    "values": {
+      "eyebrow": "What drives us",
+      "items": [
+        "Boldness",
+        "Creativity",
+        "Innovation",
+        "Immersion"
+      ]
+    },
+    "stats": [
+      {
+        "value": "70+",
+        "label": "projects, from brand stages to temple facades"
+      },
+      {
+        "value": "3",
+        "label": "home markets: India, UAE and Saudi Arabia"
+      },
+      {
+        "value": "13",
+        "label": "services under one roof"
+      }
+    ],
+    "studios": {
+      "eyebrow": "Studios",
+      "items": [
+        {
+          "country": "India",
+          "cities": [
+            "Mumbai",
+            "New Delhi"
+          ]
+        },
+        {
+          "country": "UAE",
+          "cities": [
+            "Dubai"
+          ]
+        },
+        {
+          "country": "Saudi Arabia",
+          "cities": []
+        }
+      ]
+    },
+    "team": {
+      "eyebrow": "Our team",
+      "heading": "The people behind the work",
+      "members": [
+        {
+          "name": "Shubham Choubey",
+          "role": "Founder & Creative Director",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/Shubham_b164c0d17e.PNG",
+            "alternativeText": "Shubham Choubey"
+          }
+        },
+        {
+          "name": "Riya J Choubey",
+          "role": "Chief Operating Officer",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/A255_E89_F_8_E05_4_E82_A6_F7_803_EECFCC_7_C5_901779eb01.PNG",
+            "alternativeText": "Riya J Choubey"
+          }
+        },
+        {
+          "name": "Tejas Kamble",
+          "role": "Creative Director",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/Tejas_a56e20909d.PNG",
+            "alternativeText": "Tejas Kamble"
+          }
+        },
+        {
+          "name": "Shubham Patnekar",
+          "role": "Studio Head",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/5_F3_C1016_F88_C_4_E60_807_E_7_D2_AF_85_FA_7_DB_b5fcfa0807.PNG",
+            "alternativeText": "Shubham Patnekar"
+          }
+        },
+        {
+          "name": "Himanshu Raghav",
+          "role": "CEO (Delhi)",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/Whats_App_Image_2025_04_23_at_11_51_39_Photoroom_0b043ac08a.png",
+            "alternativeText": "Himanshu Raghav"
+          }
+        },
+        {
+          "name": "Deepak Rao",
+          "role": "Studio Head (Delhi)",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/Deepak_47030fe4c3.PNG",
+            "alternativeText": "Deepak Rao"
+          }
+        },
+        {
+          "name": "Mansi Gharat",
+          "role": "Assistant Art Director",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/638_BDBF_9_3_CC_1_47_AE_838_C_1_C594_D994_DE_8_b2da3e4ffb.PNG",
+            "alternativeText": "Mansi Gharat"
+          }
+        },
+        {
+          "name": "Vansh Chaturvedi",
+          "role": "Experience Designer / Consultant",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/IMG_2198_a0f2b238ab.PNG",
+            "alternativeText": "Vansh Chaturvedi"
+          }
+        },
+        {
+          "name": "Prasanjit Ghosh",
+          "role": "Senior 3D Generalist",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/32515_D16_1_FEE_4_CAA_B5_F4_5_E72_C57_B3_E73_6c89f97b41.PNG",
+            "alternativeText": "Prasanjit Ghosh"
+          }
+        },
+        {
+          "name": "Jayant Shinde",
+          "role": "Senior 3D Generalist",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/713_BB_0_DE_3_F1_C_448_E_8182_B45_C7490_B410_9cd6e2b784.PNG",
+            "alternativeText": "Jayant Shinde"
+          }
+        },
+        {
+          "name": "Ishaan Verma",
+          "role": "3D Motion Graphics Designer",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/FA_854446_D428_4981_AD_25_BA_9_C8_A820_F16_25adc12c71.PNG",
+            "alternativeText": "Ishaan Verma"
+          }
+        },
+        {
+          "name": "Prajakta Gopale",
+          "role": "Motion Graphics Artist",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/0_CAB_725_D_87_DC_4_A00_9_E59_2_FAA_745_F82_F4_3159b1da7c.PNG",
+            "alternativeText": "Prajakta Gopale"
+          }
+        },
+        {
+          "name": "Rahul Gupta",
+          "role": "3D Generalist",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/3366_B3_D1_6125_4433_A4_B0_B9_C0_AD_137369_e1d84b94c2.PNG",
+            "alternativeText": "Rahul Gupta"
+          }
+        },
+        {
+          "name": "Pranav Pawaskar",
+          "role": "Concept Visualizer / Storyboard Artist",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/IMG_2204_6b9d08a738.PNG",
+            "alternativeText": "Pranav Pawaskar"
+          }
+        },
+        {
+          "name": "Hemang Ruparelia",
+          "role": "Motion Graphics Artist",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/F20_A5_AB_7_0464_4_C46_A1_D0_B2191_EA_3553_A_813c5090b1.PNG",
+            "alternativeText": "Hemang Ruparelia"
+          }
+        },
+        {
+          "name": "Tufail Momin",
+          "role": "3D Generalist",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/IMG_2608_5bac61cdbb.PNG",
+            "alternativeText": "Tufail Momin"
+          }
+        },
+        {
+          "name": "Chirag Acharya",
+          "role": "Creative Consultant",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/Whats_App_Image_2024_03_07_at_10_53_49_PM_451d872729.jpeg",
+            "alternativeText": "Chirag Acharya"
+          }
+        },
+        {
+          "name": "Adnan Khan",
+          "role": "Senior 3D Generalist",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/7956_CC_85_2_F53_473_E_B5_D3_18_B361_B8_CED_4_3782f222f8.PNG",
+            "alternativeText": "Adnan Khan"
+          }
+        },
+        {
+          "name": "Amol Pawar",
+          "role": "CFO",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/05_F8_CE_90_216_A_4621_8_EAE_095_FDA_04583_F_2c83c3854c.PNG",
+            "alternativeText": "Amol Pawar"
+          }
+        },
+        {
+          "name": "Dilip",
+          "role": "Admin",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/449_AFF_61_F1_BE_40_C8_82_D6_F84_EEB_29798_C_193327bb06.PNG",
+            "alternativeText": "Dilip"
+          }
+        },
+        {
+          "name": "Dinesh Jaiswal",
+          "role": "Senior Production Designer",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/088_CF_118_1_B6_E_430_F_AB_7_C_7_EDEC_1_EFF_44_D_d9a025bcd2.PNG",
+            "alternativeText": "Dinesh Jaiswal"
+          }
+        },
+        {
+          "name": "Divya Kumari",
+          "role": "Assistant Manager, Client Servicing",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/89_B70300_6_D27_4_ABC_BDFD_A92_D561_B14_E0_88a48cafbc.PNG",
+            "alternativeText": "Divya Kumari"
+          }
+        },
+        {
+          "name": "Eleasha Dsouza",
+          "role": "HR Manager",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/0789158_B_7_DE_5_4_E1_E_8_F1_D_3_AE_855_BB_2_EF_8_b0289952ac.PNG",
+            "alternativeText": "Eleasha Dsouza"
+          }
+        },
+        {
+          "name": "Jayesh D. Vasaikar",
+          "role": "Senior 2D Visualizer and Designer",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/0_F7_E5_F12_D38_E_4_C49_91_E7_24_FE_19_AC_72_FE_ce718dd14c.PNG",
+            "alternativeText": "Jayesh D. Vasaikar"
+          }
+        },
+        {
+          "name": "Mandar Panchal",
+          "role": "3D Generalist",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/2_B2_B20_AD_E733_4564_A281_B32_FA_7648_D0_A_365df04f88.PNG",
+            "alternativeText": "Mandar Panchal"
+          }
+        },
+        {
+          "name": "Manthan Ayar",
+          "role": "3D Generalist",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/1_B9_ED_22_A_8104_402_F_A0_FE_FD_9_BB_35_E0_CBF_b0ddffaa8a.PNG",
+            "alternativeText": "Manthan Ayar"
+          }
+        },
+        {
+          "name": "Prathamesh Gaikwad",
+          "role": "Motion Graphics Artist",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/F3_FD_54_D9_46_A8_4_D1_B_8428_B9_B0_AEEE_2_A63_5d537e2887.PNG",
+            "alternativeText": "Prathamesh Gaikwad"
+          }
+        },
+        {
+          "name": "Pratik Pandya",
+          "role": "Production Manager",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/F3_CD_413_E_109_C_42_D3_8_A5_E_681343_E6_E6_E5_ca3651374c.PNG",
+            "alternativeText": "Pratik Pandya"
+          }
+        },
+        {
+          "name": "Ravi Nirmal",
+          "role": "Concept Visualizer / Storyboard Artist",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/95_A5_C7_DA_3092_46_A1_8_C5_B_00285_AF_681_F6_fad9c0a46b.PNG",
+            "alternativeText": "Ravi Nirmal"
+          }
+        },
+        {
+          "name": "Sagar Bhise",
+          "role": "Jr. 3D Generalist",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/B28_D0_B2_F_C449_4_D9_C_9975_7022064_AA_875_8b199a224e.PNG",
+            "alternativeText": "Sagar Bhise"
+          }
+        },
+        {
+          "name": "Abhishek Ashok Abnawe",
+          "role": "Senior 2D Visualizer and Designer",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/15_BFB_2_A9_5_CFF_4309_93_F9_4_C49_A289_F1_A8_133f8bf7af.PNG",
+            "alternativeText": "Abhishek Ashok Abnawe"
+          }
+        },
+        {
+          "name": "Dipankar Biswas",
+          "role": "Senior 3D Generalist",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/iceimck_c8897e30dd.PNG",
+            "alternativeText": "Dipankar Biswas"
+          }
+        },
+        {
+          "name": "Tarun Chauhan",
+          "role": "Editor & Motion Graphics Artist",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/Tarun_dc40ef5a65.PNG",
+            "alternativeText": "Tarun Chauhan"
+          }
+        },
+        {
+          "name": "Himanshu Kashyap",
+          "role": "Motion Artist",
+          "photo": null
+        },
+        {
+          "name": "Vikas Singh",
+          "role": "3D Generalist",
+          "photo": {
+            "url": "https://cdn.zerodesignstudios.com/vikas_singh_546f58a77b.PNG",
+            "alternativeText": "Vikas Singh"
+          }
+        }
+      ]
+    },
+    "cta": {
+      "heading": "See what we’ve built",
+      "primary": {
+        "label": "Explore our work",
+        "href": "/work/"
+      },
+      "secondary": {
+        "label": "Chat on WhatsApp",
+        "href": "https://wa.me/919977098856"
+      }
+    },
+    "sources": [
+      "https://www.zerodesignstudios.com/about",
+      "https://portfolio.zerodesignstudios.com/"
+    ]
+  },
+  "meta": {}
+}

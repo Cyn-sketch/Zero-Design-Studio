@@ -1,0 +1,1252 @@
+{
+  "data": {
+    "id": 1,
+    "documentId": "work-page",
+    "seo": {
+      "metaTitle": "Work | Zero Design Studio: Stage Content, Anamorphic 3D, Exhibitions & Projection Mapping",
+      "metaDescription": "70+ projects by Zero Design Studio: stage and screen content, exhibition booths, anamorphic and holographic installs and projection mapping across India, the UAE and Saudi Arabia.",
+      "shareImage": {
+        "url": "https://portfolio.zerodesignstudios.com/images/sbi-life-25-years.jpg",
+        "alternativeText": "Stage visuals for SBI Life 25 Years"
+      }
+    },
+    "hero": {
+      "eyebrow": "Portfolio · India · UAE · Saudi Arabia",
+      "title": "Our Work",
+      "intro": "Content for LED stages, exhibition booths, anamorphic screens and projection mapping, combining CGI with AI-driven storytelling.",
+      "image": {
+        "url": "https://portfolio.zerodesignstudios.com/images/sbi-life-25-years.jpg",
+        "alternativeText": "Stage visuals for SBI Life 25 Years, 2026"
+      },
+      "imageCaption": "SBI Life 25 Years, 2026: full stage visual package"
+    },
+    "stats": [
+      {
+        "value": "70+",
+        "label": "projects, from brand stages to temple facades"
+      },
+      {
+        "value": "3",
+        "label": "home markets (India, UAE and Saudi Arabia), with work delivered in the USA, Nepal and Malaysia"
+      },
+      {
+        "value": "13",
+        "label": "services under one roof, from concept and CGI to projection mapping and show production"
+      }
+    ],
+    "showreels": {
+      "heading": "Watch the showreels",
+      "items": [
+        {
+          "title": "Zero Design Studio Showreel",
+          "summary": "Our best stage, exhibition and experiential work in one cut",
+          "video": {
+            "provider": "youtube",
+            "id": "wWdHbHcyybs"
+          },
+          "thumbnail": {
+            "url": "https://i.ytimg.com/vi/wWdHbHcyybs/maxresdefault.jpg"
+          }
+        },
+        {
+          "title": "ZDS AI Showreel",
+          "summary": "Content made with AI-driven production",
+          "video": {
+            "provider": "youtube",
+            "id": "oAEomBEkBLg"
+          },
+          "thumbnail": {
+            "url": "https://i.ytimg.com/vi/oAEomBEkBLg/sddefault.jpg"
+          }
+        }
+      ],
+      "decksHeading": "Capability decks",
+      "decks": [
+        {
+          "title": "Exhibitions & Stage Content",
+          "format": "Presentation",
+          "href": "https://docs.google.com/presentation/d/1Hme3rVUFa8pJaz7PSuig4BPoxO9jWs9M/edit?usp=sharing"
+        },
+        {
+          "title": "Retail Experiential Marketing",
+          "format": "PDF deck",
+          "href": "https://drive.google.com/file/d/1EDn5SmrDNtmduVJ_dG63J-rVmYZRvF1t/view"
+        },
+        {
+          "title": "DOOH Marketing",
+          "format": "PDF deck",
+          "href": "https://drive.google.com/file/d/1hyeb6HLrOZnrcEfzbPe6LSWCYzJtwVoI/view"
+        },
+        {
+          "title": "Anamorphic Deck",
+          "format": "PDF deck",
+          "href": "https://drive.google.com/file/d/1tHN5B9luYOz2JdZfHUAbrSaWBqcQ4Cl4/view"
+        }
+      ]
+    },
+    "featured": {
+      "eyebrow": "Work showcase",
+      "heading": "Selected work",
+      "intro": "Tap any project to watch the walkthrough.",
+      "groups": [
+        {
+          "key": "stage",
+          "heading": "Stage & Screen Content",
+          "summary": "Stage visuals for brand shows, launches and concerts",
+          "items": [
+            {
+              "ref": "sbi-life-25-years-2026",
+              "displayTitle": "SBI Life — 25 Years"
+            },
+            {
+              "ref": "jsw-cement-2026",
+              "displayTitle": "JSW Cement"
+            },
+            {
+              "ref": "bluestar-2026",
+              "displayTitle": "Bluestar"
+            },
+            {
+              "ref": "karur-vysya-bank-2026",
+              "displayTitle": "Karur Vysya Bank"
+            },
+            {
+              "ref": "sbi-life-sangam-2025",
+              "displayTitle": "SBI Life Sangam"
+            },
+            {
+              "ref": "abg-awards-2025",
+              "displayTitle": "ABG Awards"
+            },
+            {
+              "ref": "elie-saab-x-m3m",
+              "displayTitle": "Elie Saab × M3M"
+            },
+            {
+              "ref": "bharat-smriti-bodh",
+              "displayTitle": "Bharat Smriti Bodh"
+            },
+            {
+              "ref": "krafton-awards-india",
+              "displayTitle": "Krafton Awards India"
+            },
+            {
+              "ref": "youtube-fanfest-2025",
+              "displayTitle": "YouTube FanFest"
+            },
+            {
+              "ref": "nucleya-x-lollapalooza-2026",
+              "displayTitle": "Nucleya × Lollapalooza"
+            },
+            {
+              "ref": "waves-summit",
+              "displayTitle": "WAVES — World Audio Visual & Entertainment Summit"
+            },
+            {
+              "ref": "khelo-india",
+              "displayTitle": "Khelo India"
+            },
+            {
+              "ref": "india-energy-week-2025",
+              "displayTitle": "India Energy Week"
+            }
+          ]
+        },
+        {
+          "key": "exhibitions",
+          "heading": "Exhibitions",
+          "summary": "Booth content for expos and trade shows",
+          "items": [
+            {
+              "ref": "opentext-leap-2025",
+              "displayTitle": "OpenText @ LEAP 2025"
+            },
+            {
+              "ref": "ezelink-gitex-2024",
+              "displayTitle": "Ezelink @ GITEX 2024"
+            },
+            {
+              "ref": "ashok-leyland-auto-expo",
+              "displayTitle": "Ashok Leyland @ Auto Expo"
+            },
+            {
+              "ref": "axis-bank-anamorphic-content",
+              "displayTitle": "Axis Bank — anamorphic content"
+            }
+          ]
+        },
+        {
+          "key": "experiential",
+          "heading": "Multimedia Shows & Experiential",
+          "summary": "Anamorphic, holographic and immersive installs",
+          "items": [
+            {
+              "ref": "blvd-sphere",
+              "displayTitle": "BLVD Sphere"
+            },
+            {
+              "ref": "foot-locker-anamorphic",
+              "displayTitle": "Foot Locker anamorphic"
+            },
+            {
+              "ref": "punjab-kings-anamorphic",
+              "displayTitle": "Punjab Kings anamorphic"
+            },
+            {
+              "ref": "ipl-holographic-installation",
+              "displayTitle": "IPL holographic installation"
+            }
+          ]
+        },
+        {
+          "key": "projection",
+          "heading": "Projection Mapping",
+          "summary": "Temples, monuments and building facades",
+          "items": [
+            {
+              "ref": "hanuman-temple",
+              "displayTitle": "Hanuman Temple"
+            },
+            {
+              "ref": "ayodhya-temple-and-gateway-of-india",
+              "displayTitle": "Ayodhya Temple & Gateway of India"
+            }
+          ]
+        }
+      ]
+    },
+    "all": {
+      "eyebrow": "The full list",
+      "heading": "Every project in the portfolio",
+      "categories": [
+        {
+          "key": "stage",
+          "label": "Stage visuals"
+        },
+        {
+          "key": "exhibitions",
+          "label": "Exhibitions"
+        },
+        {
+          "key": "experiential",
+          "label": "Experiential"
+        },
+        {
+          "key": "projection",
+          "label": "Projection mapping"
+        }
+      ]
+    },
+    "projects": [
+      {
+        "slug": "sbi-life-25-years-2026",
+        "title": "SBI Life — 25 Years",
+        "year": 2026,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "qRhDoW0u8Ag",
+          "url": "https://youtu.be/qRhDoW0u8Ag",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/sbi-life-25-years.jpg",
+          "alternativeText": "SBI Life — 25 Years: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "jsw-cement-2026",
+        "title": "JSW Cement",
+        "year": 2026,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "_duMYKPJPgM",
+          "url": "https://youtu.be/_duMYKPJPgM",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/jsw-cement.jpg",
+          "alternativeText": "JSW Cement: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "bluestar-2026",
+        "title": "Bluestar",
+        "year": 2026,
+        "category": "stage",
+        "location": "India",
+        "watch": null,
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/bluestar.jpg",
+          "alternativeText": "Bluestar: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "karur-vysya-bank-2026",
+        "title": "Karur Vysya Bank",
+        "year": 2026,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "Y3hIOXfJdj0",
+          "url": "https://youtu.be/Y3hIOXfJdj0",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/karur-vysya-bank.jpg",
+          "alternativeText": "Karur Vysya Bank: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "dhurandhar-2-album-launch",
+        "title": "Dhurandhar 2 album launch",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "6eYxs3qFKDQ",
+          "url": "https://youtube.com/shorts/6eYxs3qFKDQ",
+          "vertical": true
+        },
+        "image": {
+          "url": "https://i.ytimg.com/vi/6eYxs3qFKDQ/hqdefault.jpg",
+          "alternativeText": "Dhurandhar 2 album launch: visuals by Zero Design Studio"
+        }
+      },
+      {
+        "slug": "bharat-smriti-bodh",
+        "title": "Bharat Smriti Bodh",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": null,
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/bharat-smriti-bodh.jpg",
+          "alternativeText": "Bharat Smriti Bodh: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "bpcl",
+        "title": "BPCL",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": null,
+        "image": null
+      },
+      {
+        "slug": "sbi-life-sangam-2025",
+        "title": "SBI Life Sangam",
+        "year": 2025,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "82TEhofDzNU",
+          "url": "https://youtu.be/82TEhofDzNU",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/sbi-life-sangam.jpg",
+          "alternativeText": "SBI Life Sangam: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "abg-awards-2025",
+        "title": "ABG Awards",
+        "year": 2025,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "QOpNdhEXKzs",
+          "url": "https://youtu.be/QOpNdhEXKzs",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/abg-awards.jpg",
+          "alternativeText": "ABG Awards: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "krishna-musical",
+        "title": "Krishna musical",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": null,
+        "image": null
+      },
+      {
+        "slug": "elie-saab-x-m3m",
+        "title": "Elie Saab × M3M",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "gyf2Ls0ZzBY",
+          "url": "https://youtu.be/gyf2Ls0ZzBY",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/elie-saab-m3m.jpg",
+          "alternativeText": "Elie Saab × M3M: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "horiba-2026",
+        "title": "Horiba",
+        "year": 2026,
+        "category": "stage",
+        "location": "Dubai",
+        "watch": null,
+        "image": null
+      },
+      {
+        "slug": "wow-awards-2025",
+        "title": "WOW Awards",
+        "year": 2025,
+        "category": "stage",
+        "location": "Dubai",
+        "watch": {
+          "provider": "instagram",
+          "url": "https://www.instagram.com/reel/DPdPYiej_3g/"
+        },
+        "image": null
+      },
+      {
+        "slug": "danube-launch",
+        "title": "Danube launch",
+        "year": null,
+        "category": "stage",
+        "location": "Dubai",
+        "watch": {
+          "provider": "youtube",
+          "id": "Wk7giZklzG8",
+          "url": "https://youtu.be/Wk7giZklzG8",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://i.ytimg.com/vi/Wk7giZklzG8/hqdefault.jpg",
+          "alternativeText": "Danube launch: visuals by Zero Design Studio"
+        }
+      },
+      {
+        "slug": "ilaiyaraaja-musical",
+        "title": "Ilaiyaraaja musical",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "instagram",
+          "url": "https://www.instagram.com/reel/DPl5OjECGVh/"
+        },
+        "image": null
+      },
+      {
+        "slug": "krafton-awards-india",
+        "title": "Krafton Awards India",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "instagram",
+          "url": "https://www.instagram.com/reel/DUBC_AtiKzU/"
+        },
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/krafton-awards.jpg",
+          "alternativeText": "Krafton Awards India: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "youtube-fanfest-2025",
+        "title": "YouTube FanFest",
+        "year": 2025,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "instagram",
+          "url": "https://www.instagram.com/reel/DPOs4iWiZnI/"
+        },
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/youtube-fanfest.jpg",
+          "alternativeText": "YouTube FanFest: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "idli-kadai-audio-launch",
+        "title": "Idli Kadai audio launch",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": null,
+        "image": null
+      },
+      {
+        "slug": "vivo-x300-launch",
+        "title": "Vivo X300 launch",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "cQ2Kpcudj1Q",
+          "url": "https://youtu.be/cQ2Kpcudj1Q",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://i.ytimg.com/vi/cQ2Kpcudj1Q/hqdefault.jpg",
+          "alternativeText": "Vivo X300 launch: visuals by Zero Design Studio"
+        }
+      },
+      {
+        "slug": "nucleya-x-lollapalooza-2026",
+        "title": "Nucleya × Lollapalooza",
+        "year": 2026,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "hgEfU2zQFK8",
+          "url": "https://youtube.com/shorts/hgEfU2zQFK8",
+          "vertical": true
+        },
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/nucleya-lollapalooza.jpg",
+          "alternativeText": "Nucleya × Lollapalooza: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "asia-cup-hockey-2025",
+        "title": "Asia Cup Hockey",
+        "year": 2025,
+        "category": "stage",
+        "location": "India",
+        "watch": null,
+        "image": null
+      },
+      {
+        "slug": "kokilaben",
+        "title": "Kokilaben",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": null,
+        "image": null
+      },
+      {
+        "slug": "vivo-v60-launch",
+        "title": "Vivo V60 launch",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "instagram",
+          "url": "https://www.instagram.com/reel/DOOS-uMiPAW/"
+        },
+        "image": null
+      },
+      {
+        "slug": "al-ain-university",
+        "title": "Al-Ain University",
+        "year": null,
+        "category": "stage",
+        "location": "Dubai",
+        "watch": {
+          "provider": "youtube",
+          "id": "vuwFmSOSqDw",
+          "url": "https://youtu.be/vuwFmSOSqDw",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://i.ytimg.com/vi/vuwFmSOSqDw/hqdefault.jpg",
+          "alternativeText": "Al-Ain University: visuals by Zero Design Studio"
+        }
+      },
+      {
+        "slug": "cvent-conference",
+        "title": "Cvent Conference",
+        "year": null,
+        "category": "stage",
+        "location": "Dubai",
+        "watch": {
+          "provider": "youtube",
+          "id": "N1Uh3D9nnC0",
+          "url": "https://youtu.be/N1Uh3D9nnC0",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://i.ytimg.com/vi/N1Uh3D9nnC0/hqdefault.jpg",
+          "alternativeText": "Cvent Conference: visuals by Zero Design Studio"
+        }
+      },
+      {
+        "slug": "waves-summit",
+        "title": "WAVES Summit",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "5RXspf-cMBA",
+          "url": "https://youtube.com/shorts/5RXspf-cMBA",
+          "vertical": true
+        },
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/waves-summit.jpg",
+          "alternativeText": "WAVES — World Audio Visual & Entertainment Summit: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "khelo-india",
+        "title": "Khelo India",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "2i-jYfBuDEE",
+          "url": "https://youtu.be/2i-jYfBuDEE",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/khelo-india.jpg",
+          "alternativeText": "Khelo India: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "renewable-energy-invest-2024",
+        "title": "Renewable Energy Invest",
+        "year": 2024,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "drive",
+          "url": "https://drive.google.com/file/d/1cgwHyVN8E0DGTxxD4Vm3lvzaNFd8livW/view"
+        },
+        "image": null
+      },
+      {
+        "slug": "times-now-summit-2025",
+        "title": "Times Now Summit",
+        "year": 2025,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "xLfPjFJC_74",
+          "url": "https://youtu.be/xLfPjFJC_74",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://i.ytimg.com/vi/xLfPjFJC_74/hqdefault.jpg",
+          "alternativeText": "Times Now Summit: visuals by Zero Design Studio"
+        }
+      },
+      {
+        "slug": "utkarsh-2025-gala",
+        "title": "Utkarsh 2025 gala",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "EqJ4wIsk6M4",
+          "url": "https://www.youtube.com/watch?v=EqJ4wIsk6M4",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://i.ytimg.com/vi/EqJ4wIsk6M4/hqdefault.jpg",
+          "alternativeText": "Utkarsh 2025 gala: visuals by Zero Design Studio"
+        }
+      },
+      {
+        "slug": "india-energy-week-2025",
+        "title": "India Energy Week",
+        "year": 2025,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "0SAY6r9sS4g",
+          "url": "https://www.youtube.com/watch?v=0SAY6r9sS4g",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/india-energy-week.jpg",
+          "alternativeText": "India Energy Week: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "times-india-economic-conclave",
+        "title": "Times India Economic Conclave",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "0SAY6r9sS4g",
+          "url": "https://www.youtube.com/watch?v=0SAY6r9sS4g",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://i.ytimg.com/vi/0SAY6r9sS4g/hqdefault.jpg",
+          "alternativeText": "Times India Economic Conclave: visuals by Zero Design Studio"
+        }
+      },
+      {
+        "slug": "hero-auto-expo",
+        "title": "Hero @ Auto Expo",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "WzAGUIeZtx8",
+          "url": "https://youtu.be/WzAGUIeZtx8",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://i.ytimg.com/vi/WzAGUIeZtx8/hqdefault.jpg",
+          "alternativeText": "Hero @ Auto Expo: visuals by Zero Design Studio"
+        }
+      },
+      {
+        "slug": "horiba-one-team-one-dream",
+        "title": "Horiba — One Team One Dream",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": null,
+        "image": null
+      },
+      {
+        "slug": "marico-innovation-foundation",
+        "title": "Marico Innovation Foundation",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": null,
+        "image": null
+      },
+      {
+        "slug": "bhim-3-0-npci",
+        "title": "BHIM 3.0, NPCI",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": null,
+        "image": null
+      },
+      {
+        "slug": "standard-chartered",
+        "title": "Standard Chartered",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "R9YMLNm0siw",
+          "url": "https://www.youtube.com/watch?v=R9YMLNm0siw",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://i.ytimg.com/vi/R9YMLNm0siw/hqdefault.jpg",
+          "alternativeText": "Standard Chartered: visuals by Zero Design Studio"
+        }
+      },
+      {
+        "slug": "bajaj-allianz",
+        "title": "Bajaj Allianz",
+        "year": null,
+        "category": "stage",
+        "location": "Nepal",
+        "watch": null,
+        "image": null
+      },
+      {
+        "slug": "union-bank-of-india",
+        "title": "Union Bank of India",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "qNSJdnukxso",
+          "url": "https://www.youtube.com/watch?v=qNSJdnukxso",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://i.ytimg.com/vi/qNSJdnukxso/hqdefault.jpg",
+          "alternativeText": "Union Bank of India: visuals by Zero Design Studio"
+        }
+      },
+      {
+        "slug": "npci-one-team-one-dream",
+        "title": "NPCI — One Team One Dream",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": null,
+        "image": null
+      },
+      {
+        "slug": "wow-awards-asia-2024",
+        "title": "WOW Awards Asia",
+        "year": 2024,
+        "category": "stage",
+        "location": "Asia",
+        "watch": null,
+        "image": null
+      },
+      {
+        "slug": "tafe-product-launch",
+        "title": "TAFE product launch",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "c93fcxrOIV8",
+          "url": "https://youtu.be/c93fcxrOIV8",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://i.ytimg.com/vi/c93fcxrOIV8/hqdefault.jpg",
+          "alternativeText": "TAFE product launch: visuals by Zero Design Studio"
+        }
+      },
+      {
+        "slug": "infosys-americas-confluence",
+        "title": "Infosys Americas Confluence",
+        "year": null,
+        "category": "stage",
+        "location": "USA",
+        "watch": null,
+        "image": null
+      },
+      {
+        "slug": "bluestar-product-launch",
+        "title": "Bluestar product launch",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "qamMNbS9hWA",
+          "url": "https://www.youtube.com/watch?v=qamMNbS9hWA",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://i.ytimg.com/vi/qamMNbS9hWA/hqdefault.jpg",
+          "alternativeText": "Bluestar product launch: visuals by Zero Design Studio"
+        }
+      },
+      {
+        "slug": "led-visuals-homelooks",
+        "title": "LED visuals (homelooks)",
+        "year": null,
+        "category": "stage",
+        "location": "India",
+        "watch": null,
+        "image": null
+      },
+      {
+        "slug": "harris-jayaraj-concert",
+        "title": "Harris Jayaraj concert",
+        "year": null,
+        "category": "stage",
+        "location": "Malaysia",
+        "watch": null,
+        "image": null
+      },
+      {
+        "slug": "opentext-leap-2025",
+        "title": "OpenText @ LEAP",
+        "year": 2025,
+        "category": "exhibitions",
+        "location": "Riyadh",
+        "watch": {
+          "provider": "drive",
+          "url": "https://drive.google.com/file/d/1NPhOGoSjJ_yf3i6Sx38Bm5OgDFWNtRvh/view"
+        },
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/opentext-leap.jpg",
+          "alternativeText": "OpenText @ LEAP 2025: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "ezelink-gitex-2024",
+        "title": "Ezelink @ GITEX",
+        "year": 2024,
+        "category": "exhibitions",
+        "location": "Dubai",
+        "watch": {
+          "provider": "drive",
+          "url": "https://drive.google.com/file/d/1rLtf9Wvp0vHl05TrfR0QDiTuNXPc5LUe/view"
+        },
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/ezelink-gitex.jpg",
+          "alternativeText": "Ezelink @ GITEX 2024: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "mesc",
+        "title": "MESC",
+        "year": null,
+        "category": "exhibitions",
+        "location": "Dubai",
+        "watch": {
+          "provider": "drive",
+          "url": "https://drive.google.com/file/d/1bVmi0YLoemNCP4_HXRnLHaHYdzOFf-vi/view"
+        },
+        "image": null
+      },
+      {
+        "slug": "ashok-leyland-auto-expo",
+        "title": "Ashok Leyland @ Auto Expo",
+        "year": null,
+        "category": "exhibitions",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "ERanxf-xjso",
+          "url": "https://youtu.be/ERanxf-xjso",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/ashok-leyland.jpg",
+          "alternativeText": "Ashok Leyland @ Auto Expo: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "diplos-auto-expo",
+        "title": "Diplos @ Auto Expo",
+        "year": null,
+        "category": "exhibitions",
+        "location": "India",
+        "watch": {
+          "provider": "drive",
+          "url": "https://drive.google.com/file/d/1IqhNEmc5z5ZTU8Wzb2ICGJvB7EYFJ2hg/view"
+        },
+        "image": null
+      },
+      {
+        "slug": "montra-auto-expo",
+        "title": "Montra @ Auto Expo",
+        "year": null,
+        "category": "exhibitions",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "wHApeIUy_jA",
+          "url": "https://youtu.be/wHApeIUy_jA",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://i.ytimg.com/vi/wHApeIUy_jA/hqdefault.jpg",
+          "alternativeText": "Montra @ Auto Expo: visuals by Zero Design Studio"
+        }
+      },
+      {
+        "slug": "yg-1-imtex-2025",
+        "title": "YG-1 @ IMTEX",
+        "year": 2025,
+        "category": "exhibitions",
+        "location": "India",
+        "watch": {
+          "provider": "drive",
+          "url": "https://drive.google.com/file/d/1TUpAeyfZ4u83C94qhPS5zvEy4eijakqy/view"
+        },
+        "image": null
+      },
+      {
+        "slug": "axis-bank-anamorphic-content",
+        "title": "Axis Bank anamorphic content",
+        "year": null,
+        "category": "exhibitions",
+        "location": "India",
+        "watch": {
+          "provider": "drive",
+          "url": "https://drive.google.com/file/d/1jwal_omHLw4st70E1S6K3CBq2qoN5Cwe/view"
+        },
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/axis-anamorphic.jpg",
+          "alternativeText": "Axis Bank — anamorphic content: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "waaree-international-solar-conference",
+        "title": "Waaree, International Solar Conference",
+        "year": null,
+        "category": "exhibitions",
+        "location": "USA",
+        "watch": {
+          "provider": "drive",
+          "url": "https://drive.google.com/file/d/1Wbr72SYJM6nMEkHdixDOeP2isB7MPO6V/view"
+        },
+        "image": null
+      },
+      {
+        "slug": "alex-machine-tools-imtex-2025",
+        "title": "Alex Machine Tools @ IMTEX",
+        "year": 2025,
+        "category": "exhibitions",
+        "location": "India",
+        "watch": {
+          "provider": "drive",
+          "url": "https://drive.google.com/file/d/1MCT4NN9KbfnNI9fn9e5KEUlBeAGXS_Fn/view"
+        },
+        "image": null
+      },
+      {
+        "slug": "tawuniya-leap-2025",
+        "title": "Tawuniya @ LEAP",
+        "year": 2025,
+        "category": "exhibitions",
+        "location": "Riyadh",
+        "watch": {
+          "provider": "drive",
+          "url": "https://drive.google.com/file/d/1kw5Rpj0cEBhxK8zohqFfIaEuodtJd1hi/view"
+        },
+        "image": null
+      },
+      {
+        "slug": "blvd-sphere",
+        "title": "BLVD Sphere",
+        "year": null,
+        "category": "experiential",
+        "location": "Riyadh",
+        "watch": {
+          "provider": "drive",
+          "url": "https://drive.google.com/file/d/1R8gEjZxjZFeIL1NuDIM5za5JcCYL2m5W/view"
+        },
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/blvd-sphere.jpg",
+          "alternativeText": "BLVD Sphere: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "cop-6th-summit",
+        "title": "COP 6th Summit",
+        "year": null,
+        "category": "experiential",
+        "location": "Dubai",
+        "watch": null,
+        "image": null
+      },
+      {
+        "slug": "wwe-blvd-world",
+        "title": "WWE — BLVD World",
+        "year": null,
+        "category": "experiential",
+        "location": "Riyadh",
+        "watch": {
+          "provider": "drive",
+          "url": "https://drive.google.com/file/d/1Xzl5pu4c6jCJZi-8q2zSciCg6Nao0aWD/view"
+        },
+        "image": null
+      },
+      {
+        "slug": "tvs-apache-anamorphic",
+        "title": "TVS Apache anamorphic",
+        "year": null,
+        "category": "experiential",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "uiX2zSSCYEk",
+          "url": "https://youtu.be/uiX2zSSCYEk",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://i.ytimg.com/vi/uiX2zSSCYEk/hqdefault.jpg",
+          "alternativeText": "TVS Apache anamorphic: visuals by Zero Design Studio"
+        }
+      },
+      {
+        "slug": "tvs-apache-rr-310-anamorphic",
+        "title": "TVS Apache RR 310 anamorphic",
+        "year": null,
+        "category": "experiential",
+        "location": "India",
+        "watch": {
+          "provider": "drive",
+          "url": "https://drive.google.com/file/d/1CsTl8mPH-0wwuJMS7hE52--CCn2t3z3t/view"
+        },
+        "image": null
+      },
+      {
+        "slug": "foot-locker-anamorphic",
+        "title": "Foot Locker anamorphic",
+        "year": null,
+        "category": "experiential",
+        "location": "India",
+        "watch": {
+          "provider": "drive",
+          "url": "https://drive.google.com/file/d/1PB-ObZfWvFKzb6dv1aPCuoaiz4_AsgVP/view"
+        },
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/foot-locker-anamorphic.jpg",
+          "alternativeText": "Foot Locker anamorphic: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "adipec-ministry-of-petroleum-and-natural-gas",
+        "title": "ADIPEC, Ministry of Petroleum & Natural Gas",
+        "year": null,
+        "category": "experiential",
+        "location": "Abu Dhabi",
+        "watch": {
+          "provider": "drive",
+          "url": "https://drive.google.com/file/d/1XNJLlu4Nc4Fhjrn5gbtEzXqXzqW-OWeq/view"
+        },
+        "image": null
+      },
+      {
+        "slug": "dhl-beyond-boundaries",
+        "title": "DHL — Beyond Boundaries",
+        "year": null,
+        "category": "experiential",
+        "location": "India",
+        "watch": {
+          "provider": "instagram",
+          "url": "https://www.instagram.com/reel/DIJkqjBooGN/"
+        },
+        "image": null
+      },
+      {
+        "slug": "punjab-kings-anamorphic",
+        "title": "Punjab Kings anamorphic",
+        "year": null,
+        "category": "experiential",
+        "location": "India",
+        "watch": {
+          "provider": "drive",
+          "url": "https://drive.google.com/file/d/1QDdqlkdXfs7vqRhCkOHe-CKucw9dR7gv/view"
+        },
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/punjab-kings-anamorphic.jpg",
+          "alternativeText": "Punjab Kings anamorphic: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "ipl-holographic-installation",
+        "title": "IPL holographic installation",
+        "year": null,
+        "category": "experiential",
+        "location": "India",
+        "watch": {
+          "provider": "drive",
+          "url": "https://drive.google.com/drive/folders/1gJGX90vY3Ptr-Qm0c_x_VnqQ24VRNIXE"
+        },
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/ipl-holographic.jpg",
+          "alternativeText": "IPL holographic installation: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "hanuman-temple",
+        "title": "Hanuman Temple",
+        "year": null,
+        "category": "projection",
+        "location": "India",
+        "watch": {
+          "provider": "drive",
+          "url": "https://drive.google.com/file/d/1-xMd5aWLPzGcXMAMepBZ7fvNC0Wc2XfJ/view"
+        },
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/hanuman-temple-projection.jpg",
+          "alternativeText": "Hanuman Temple: visuals by Zero Design Studio"
+        },
+        "featured": true
+      },
+      {
+        "slug": "wadhwa",
+        "title": "Wadhwa",
+        "year": null,
+        "category": "projection",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "80M-ZTdido4",
+          "url": "https://youtu.be/80M-ZTdido4",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://i.ytimg.com/vi/80M-ZTdido4/hqdefault.jpg",
+          "alternativeText": "Wadhwa: visuals by Zero Design Studio"
+        }
+      },
+      {
+        "slug": "udaivilas",
+        "title": "Udaivilas",
+        "year": null,
+        "category": "projection",
+        "location": "India",
+        "watch": {
+          "provider": "youtube",
+          "id": "WWnwDh5nPzE",
+          "url": "https://www.youtube.com/watch?v=WWnwDh5nPzE",
+          "vertical": false
+        },
+        "image": {
+          "url": "https://i.ytimg.com/vi/WWnwDh5nPzE/hqdefault.jpg",
+          "alternativeText": "Udaivilas: visuals by Zero Design Studio"
+        }
+      },
+      {
+        "slug": "ramayan",
+        "title": "Ramayan",
+        "year": null,
+        "category": "projection",
+        "location": "India",
+        "watch": null,
+        "image": null
+      },
+      {
+        "slug": "ayodhya-temple-and-gateway-of-india",
+        "title": "Ayodhya Temple & Gateway of India",
+        "year": null,
+        "category": "projection",
+        "location": "India",
+        "watch": null,
+        "image": {
+          "url": "https://portfolio.zerodesignstudios.com/images/ayodhya-gateway-projection.jpg",
+          "alternativeText": "Ayodhya Temple & Gateway of India: visuals by Zero Design Studio"
+        },
+        "featured": true
+      }
+    ],
+    "source": "https://portfolio.zerodesignstudios.com/"
+  },
+  "meta": {}
+}

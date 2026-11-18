@@ -1,0 +1,420 @@
+{
+  "data": {
+    "id": 1,
+    "documentId": "homepage",
+    "seo": {
+      "metaTitle": "Zero Design Studio | Immersive Experiences, 3D & Anamorphic Content",
+      "metaDescription": "Zero Design Studio is a multidisciplinary experience design company in India, the UAE and Saudi Arabia crafting content, anamorphic 3D, immersive experiences, new media art installations and multimedia productions.",
+      "shareImage": {
+        "url": "/assets/logo/zds-logo-full.webp",
+        "alternativeText": "Zero Design Studio logo"
+      }
+    },
+    "brand": {
+      "name": "Zero Design Studio",
+      "shortName": "ZDS",
+      "logoFull": {
+        "url": "/assets/logo/zds-logo-full.webp",
+        "alternativeText": "Zero Design Studio logo",
+        "width": 1750,
+        "height": 2000
+      },
+      "logoNav": {
+        "url": "/assets/logo/zds-logo-white.webp",
+        "alternativeText": "Zero Design Studio",
+        "width": 2000,
+        "height": 824
+      }
+    },
+    "navigation": [
+      {
+        "label": "Work",
+        "href": "/work/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Blogs",
+        "href": "/blogs/"
+      },
+      {
+        "label": "Contact",
+        "href": "https://wa.me/919977098856"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Multidisciplinary Experience Design Company · IND · UAE · KSA",
+      "headline": [
+        "Engage.",
+        "Entertain.",
+        "Evolve."
+      ],
+      "subline": "We build content, anamorphic 3D, immersive experiences and new media art that people step into and remember.",
+      "cta": {
+        "label": "Watch Showreel",
+        "href": "#showreel",
+        "media": {
+          "url": "",
+          "mime": "video/mp4"
+        },
+        "video": {
+          "provider": "youtube",
+          "id": "EDV6at1EtcA",
+          "title": "ZDS Showreel 2025",
+          "confirmed": true
+        }
+      },
+      "scrollHint": "Scroll to explore"
+    },
+    "work": {
+      "heading": "Selected Work",
+      "label": "Project",
+      "ctaLabel": "View Case Study",
+      "exploreAll": {
+        "label": "Explore all work",
+        "href": "/work/"
+      },
+      "projects": [
+        {
+          "id": 1,
+          "slug": "abg-awards-2025",
+          "title": "ABG Awards 2025",
+          "tags": [
+            "Content Creation",
+            "Experience Design"
+          ],
+          "href": "/work/#abg-awards-2025",
+          "media": {
+            "url": "",
+            "mime": "image/placeholder",
+            "alternativeText": "Stage visual from ABG Awards 2025"
+          },
+          "video": {
+            "provider": "youtube",
+            "id": "QOpNdhEXKzs",
+            "title": "ABG Awards 2025",
+            "confirmed": true,
+            "source": "portfolio.zerodesignstudios.com"
+          },
+          "palette": [
+            "#2a0a5e",
+            "#c32bff"
+          ]
+        },
+        {
+          "id": 2,
+          "slug": "anamorphic-3d",
+          "title": "Anamorphic 3D",
+          "tags": [
+            "Anamorphic Content"
+          ],
+          "href": "/work/#cat-experiential",
+          "media": {
+            "url": "",
+            "mime": "image/placeholder",
+            "alternativeText": "Anamorphic 3D content on a large LED display"
+          },
+          "video": {
+            "provider": "youtube",
+            "id": "6GIVZ6WugvM",
+            "title": "2025 Anamorphic Content Showreel | 3D Animation & CGI Mastery",
+            "confirmed": false
+          },
+          "palette": [
+            "#140632",
+            "#7b2cff"
+          ]
+        },
+        {
+          "id": 3,
+          "slug": "sbi-life-sangam-2025",
+          "title": "SBI Life Sangam 2025",
+          "tags": [
+            "Experience Design"
+          ],
+          "href": "/work/#sbi-life-sangam-2025",
+          "media": {
+            "url": "",
+            "mime": "image/placeholder",
+            "alternativeText": "Immersive stage experience for SBI Life Sangam 2025"
+          },
+          "video": {
+            "provider": "youtube",
+            "id": "82TEhofDzNU",
+            "title": "SBI Life Sangam 2025",
+            "confirmed": true,
+            "source": "portfolio.zerodesignstudios.com"
+          },
+          "palette": [
+            "#3a0b4f",
+            "#e04bff"
+          ]
+        },
+        {
+          "id": 4,
+          "slug": "elie-saab-x-m3m-launch",
+          "title": "Elie Saab x M3M Launch",
+          "tags": [
+            "Experience Design"
+          ],
+          "href": "/work/#elie-saab-x-m3m",
+          "media": {
+            "url": "",
+            "mime": "image/placeholder",
+            "alternativeText": "Luxury launch experience for Elie Saab and M3M"
+          },
+          "video": {
+            "provider": "youtube",
+            "id": "gyf2Ls0ZzBY",
+            "start": 12,
+            "title": "Immerse into the World of Luxury | Elie Saab × M3M Luxury Residential Launch | India 2026",
+            "confirmed": true,
+            "source": "portfolio.zerodesignstudios.com"
+          },
+          "palette": [
+            "#1c0838",
+            "#a35bff"
+          ]
+        }
+      ]
+    },
+    "services": {
+      "heading": "What We Do",
+      "items": [
+        {
+          "id": 1,
+          "slug": "content-creation",
+          "index": "01",
+          "title": "Content Creation",
+          "summary": "Stories built for screens of every size, from broadcast to building-sized LED.",
+          "capabilities": [
+            "Content production",
+            "VFX",
+            "Animation & visual packaging",
+            "Anamorphic content"
+          ],
+          "zoneColor": "#7b2cff",
+          "visual": "frames"
+        },
+        {
+          "id": 2,
+          "slug": "experience-design",
+          "index": "02",
+          "title": "Experience Design",
+          "summary": "Spaces people step into, not just look at. We design and produce immersive brand experiences end to end.",
+          "capabilities": [
+            "Immersive experiences",
+            "Multimedia show design",
+            "Experience production"
+          ],
+          "zoneColor": "#c32bff",
+          "visual": "portal"
+        },
+        {
+          "id": 3,
+          "slug": "experiential-marketing",
+          "index": "03",
+          "title": "Experiential Marketing",
+          "summary": "Where art meets technology and brands become something you can touch.",
+          "capabilities": [
+            "New media art installations",
+            "Digital art curation",
+            "Art-tech collaborations",
+            "Interactive installations"
+          ],
+          "zoneColor": "#5a3dff",
+          "visual": "cubes"
+        },
+        {
+          "id": 4,
+          "slug": "multimedia-production",
+          "index": "04",
+          "title": "Multimedia Production",
+          "summary": "The hardware and craft behind the magic, engineered to run flawlessly.",
+          "capabilities": [
+            "LED technology integration",
+            "Audio-visual production",
+            "VR / AR",
+            "Permanent shows & museums"
+          ],
+          "zoneColor": "#9b6bff",
+          "visual": "ledwall"
+        }
+      ]
+    },
+    "brands": {
+      "heading": "Brands We've Built With",
+      "items": [
+        {
+          "name": "Cvent",
+          "logo": null
+        },
+        {
+          "name": "JSW Cement",
+          "logo": null
+        },
+        {
+          "name": "Raymond",
+          "logo": null
+        },
+        {
+          "name": "Airtel",
+          "logo": null
+        },
+        {
+          "name": "Polycab",
+          "logo": null
+        },
+        {
+          "name": "SBI Life",
+          "logo": null
+        },
+        {
+          "name": "AM/NS",
+          "logo": null
+        },
+        {
+          "name": "boAt",
+          "logo": null
+        },
+        {
+          "name": "JSW Paints",
+          "logo": null
+        },
+        {
+          "name": "NPCI",
+          "logo": null
+        },
+        {
+          "name": "Wadhwa",
+          "logo": null
+        },
+        {
+          "name": "Yes Bank",
+          "logo": null
+        },
+        {
+          "name": "TVS",
+          "logo": null
+        },
+        {
+          "name": "Fi",
+          "logo": null
+        },
+        {
+          "name": "HDFC ERGO",
+          "logo": null
+        },
+        {
+          "name": "Policybazaar",
+          "logo": null
+        },
+        {
+          "name": "Tata Metaliks",
+          "logo": null
+        }
+      ]
+    },
+    "contact": {
+      "heading": "Liked our work?",
+      "subheading": "Let's build something together.",
+      "cta": {
+        "label": "Chat on WhatsApp",
+        "href": "https://wa.me/919977098856"
+      },
+      "locations": [
+        "Mumbai",
+        "New Delhi",
+        "Dubai"
+      ],
+      "whatsapp": {
+        "number": "+91 99770 98856",
+        "href": "https://wa.me/919977098856"
+      }
+    },
+    "footer": {
+      "tagline": "A multidisciplinary experience design company crafting content, immersive experiences and new media art.",
+      "quickLinks": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "Work",
+          "href": "/work/"
+        },
+        {
+          "label": "About",
+          "href": "/about/"
+        },
+        {
+          "label": "Blogs",
+          "href": "/blogs/"
+        },
+        {
+          "label": "Contact",
+          "href": "https://wa.me/919977098856"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Mumbai",
+          "country": "India"
+        },
+        {
+          "city": "New Delhi",
+          "country": "India"
+        },
+        {
+          "city": "Dubai",
+          "country": "UAE"
+        },
+        {
+          "city": "Saudi",
+          "country": "KSA"
+        }
+      ],
+      "socials": [
+        {
+          "label": "Facebook",
+          "href": "https://www.facebook.com/zerodesignstudios/"
+        },
+        {
+          "label": "Instagram",
+          "href": "https://www.instagram.com/zerodesignstudio/"
+        },
+        {
+          "label": "YouTube",
+          "href": "https://www.youtube.com/@zerodesignstudio1"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/company/zero-design-studio"
+        }
+      ],
+      "legal": [
+        {
+          "label": "Privacy Policy",
+          "href": "https://www.zerodesignstudios.com/privacy-policy"
+        },
+        {
+          "label": "Terms & Conditions",
+          "href": "https://www.zerodesignstudios.com/terms-and-conditions"
+        },
+        {
+          "label": "Refund Policy",
+          "href": "https://www.zerodesignstudios.com/refund-policy"
+        },
+        {
+          "label": "Shipping Policy",
+          "href": "https://www.zerodesignstudios.com/shipping-policy"
+        }
+      ],
+      "copyright": "© 2026 Zero Design Studio. All rights reserved.",
+      "blurb": "Content, anamorphic 3D, immersive experiences and new media art, built in India, the UAE and Saudi Arabia."
+    }
+  },
+  "meta": {}
+}

@@ -1,0 +1,13 @@
+# dependencies & build output
+node_modules/
+dist/
+
+# generated at dev/build time from src/content/blogs.json (see vite.config.js)
+blogs/*/
+!blogs/index.html
+
+# local tooling
+.claude/
+.DS_Store
+Thumbs.db
+*.log
